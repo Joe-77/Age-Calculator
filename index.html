@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="css/Normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  rel="stylesheet">
+</head>
+<body>
+
+      <div class="container">
+        
+        <form>
+
+          <div class="block-day block">
+
+            <p>day</p>
+            <input id="day" type="number" placeholder="DD">
+            <small class="not-valid not-valid-day"></small>
+          </div>
+
+
+          <div class="block-month block">
+
+            <p>month</p>
+            <input id="month" type="number" placeholder="MM">
+            <small class="not-valid not-valid-month"></small>
+          </div>
+
+
+          <div class="block-year block">
+
+            <p>year</p>
+            <input id="year" type="number" placeholder="YYYY">
+            <small class="not-valid not-valid-year"></small>
+          </div>
+
+        </form>
+
+        <hr color="#eee">
+
+        <button class="submit">
+          <img src="img/icon-arrow.svg" alt="">
+        </button>
+
+        <div class="output not-show">
+          <div class="year"><span class="years">--</span> years</div>
+          <div class="month"><span class="months">--</span> months</div>
+          <div class="day"><span class="days">--</span> days</div>
+        </div>
+
+      </div>
+
+  
+</body>
+<script src="js/main.js"></script>
+</html>
